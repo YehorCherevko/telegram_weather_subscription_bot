@@ -15,3 +15,6 @@ const interactionHandler = new BotInteractionHandler(bot, weatherService);
 bot.onText(/.*/, (message: Message) => {
   interactionHandler.handle(message);
 });
+
+//BOT LINK
+//https://t.me/Wheather_forecast_nodejs_bot
